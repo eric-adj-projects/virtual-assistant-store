@@ -1,6 +1,6 @@
 IMPORTANT NOTICE: This repository contains only mockups, documentation, and demonstration assets for the Virtual Assistant Store application. The actual source code is not publicly available. This repository is intended for showcase and demonstration purposes only.
 
-# FMSG Virtual Assistant Store
+# Virtual Assistant Store
 
 ![Project Banner](mockups/home-screen.png)
 
