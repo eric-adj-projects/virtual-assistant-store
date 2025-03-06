@@ -2,87 +2,33 @@
 
 ## General Questions
 
-### What is FAST?
-FAST (FMSG Accomplishment STAR Tool) is an application that automatically converts raw accomplishment details into structured STAR format narratives. It helps employees document their achievements in a standardized, professional format for performance reviews, promotions, and recognition programs.
+### What is the Virtual Assistant Store?
+The Virtual Assistant Store is a centralized marketplace for AI-powered tools and assistants designed specifically for organizational use. It provides a consistent interface for accessing various AI capabilities through a familiar "app store" experience.
 
-### What does STAR stand for?
-STAR stands for:
-- **S**ituation: The context and background
-- **T**ask: The specific goals and responsibilities
-- **A**ction: Steps taken to address the task
-- **R**esult: Outcomes and impacts achieved
+### What technologies power the Virtual Assistant Store?
+The store uses local LLM models via Ollama for most interactions, with specialized vector databases for document analysis capabilities. The frontend is built with Streamlit for rapid iteration and ease of use.
 
-### Who should use FAST?
-FAST is designed for user who who need to document accomplishments for:
-- Annual performance reviews
-- Promotion packages
-- Award nominations
-- Project documentation
-- Team recognition
+### Is an internet connection required to use the tools?
+The system is designed to run on the internal network with locally hosted models, so most functionality works without external internet access. Some advanced features may require internet connectivity for specific external APIs.
 
-### Is FAST available on mobile devices?
-FAST is primarily designed for desktop use, but its responsive interface works on tablets and smartphones as well. For the best experience, we recommend using a desktop or laptop computer.
+## Tool-Specific Questions
 
-## Usage Questions
+### What types of documents can the AIMS tool analyze?
+Currently, the AIMS tool supports PDF documents. Future updates will include support for Word documents, Excel spreadsheets, and other common file formats.
 
-### How much detail should I include in my input?
-The more specific details you provide, the better the output will be. Include metrics, timelines, challenges overcome, and specific impacts. Quantifiable results (percentages, time saved, costs reduced) are particularly valuable.
+### How accurate is the FAST (STAR format) tool?
+The FAST tool produces high-quality output based on the input provided, but all outputs should be reviewed and edited before official use. The system includes warnings to remind users to verify generated content.
 
-### Can I edit the generated output?
-Yes, the generated STAR format is a starting point. You should always review and refine the output to ensure accuracy and add any personal touches or additional details.
+### Can I customize the chatbot models?
+Yes, the Chat Different Models tool allows users to select from various available Ollama models that have been approved and installed in the organization.
 
-### How long does generation take?
-Most accomplishments are processed in 15-30 seconds. Complex or lengthy inputs may take slightly longer.
-
-### Does FAST save my inputs and outputs?
-No, FAST does not permanently store your accomplishment details or generated outputs. Once you close your browser, the data is cleared. Always download your results.
-
-### Can I upload a document instead of typing?
-The current version requires text input. Future updates may include document upload capabilities.
+### How is my document data handled in AIMS?
+Documents uploaded to AIMS are processed in-memory and not permanently stored. The vector embeddings are maintained only for the duration of your session for privacy and security purposes.
 
 ## Technical Questions
 
-### What happens if the tool makes an error?
-FAST is an AI-powered tool that may occasionally make mistakes or misinterpret information. Always review the output carefully before using it officially. The warning banner reminds users to verify all generated content.
+### Does the system track usage metrics?
+The system collects anonymous usage statistics to help improve tool performance and prioritize future development. No personally identifiable information is collected during normal operation.
 
-### Can I use FAST offline?
-No, FAST requires an internet connection to function properly as it utilizes organizational infrastructure for processing.
-
-### What technologies power FAST?
-FAST is built using:
-- Streamlit (frontend interface)
-- LlamaIndex and Ollama (NLP processing)
-- Pandas and OpenPyXL (data handling and export)
-- Asynchronous Python architecture (parallel processing)
-
-### Does FAST access sensitive information?
-No, FAST only processes the text you directly input. It does not access any organizational databases or systems.
-
-## Best Practices
-
-### How can I get the best results from FAST?
-1. Be specific and detailed in your input
-2. Include quantifiable metrics whenever possible
-3. Mention specific challenges overcome
-4. Specify the timeframe of the accomplishment
-5. Note any strategic initiatives or goals your work supported
-
-### Should I include personal information?
-No, FAST is designed to generate professional, third-person narratives. Avoid including personal information, and note that the tool automatically removes first-person pronouns.
-
-### How can I align my accomplishments with organizational goals?
-Mention specific strategic goals, missions, or initiatives in your input text. The tool will incorporate these references into the appropriate sections of the STAR format.
-
-### Can I use the same accomplishment for multiple purposes?
-Yes, once generated, you can adapt the STAR output for different purposes such as performance reviews, award nominations, or promotion packages.
-
-## Repository Information
-
-### Why isn't the source code available in this repository?
-This GitHub repository serves as a showcase for the FAST application's capabilities and interface. The actual source code is maintained privately. This repository contains only mockups, documentation, and demonstration assets.
-
-### Can I request access to the source code?
-The source code is not publicly available. This repository is intended for demonstration purposes only.
-
-### Is the application available for use?
-This repository only showcases the application.
+### What happens if a tool encounters an error?
+The system includes robust error handling and recovery mechanisms. If an error occurs, the application will attempt to recover automatically. Persistent errors are logged for review.
