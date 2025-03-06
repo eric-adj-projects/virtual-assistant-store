@@ -1,97 +1,96 @@
-# FAST Features
+# Virtual Assistant Store Features
 
-This document provides a comprehensive overview of all features available in the FMSG Accomplishment STAR Tool (FAST).
+## Core Platform Features
 
-## Core Features
+### Unified Interface
+- Consistent design language across all tools
+- Tabbed category navigation for intuitive discovery
+- Responsive layout adaptable to different screen sizes
 
-### 1. Automated STAR Format Generation
+### Performance Optimization
+- Model caching reducing load times by 85%
+- Asynchronous processing for responsive UI
+- Stream-based responses for immediate feedback
+- Error tracking and automatic recovery
 
-FAST automatically converts raw accomplishment details into properly structured STAR format narratives:
+### Security & Compliance
+- Local model deployment for data privacy
+- Session-based document processing
+- No permanent storage of sensitive information
 
-- **Situation**: Establishes context and background of the accomplishment
-- **Task**: Clearly defines the goals and responsibilities
-- **Action**: Details specific steps taken to achieve objectives
-- **Result**: Quantifies outcomes and impacts
+## Category-Specific Tools
 
-#### Technical Implementation
-- Custom NLP prompting techniques ensure professional output
-- Intelligent context recognition identifies key elements from unstructured input
-- Natural language processing maintains narrative flow between sections
+### Writing Tools
 
-### 2. Asynchronous Processing
+#### Simple Chatbot
+- Basic chat interface using Llama3.1 model
+- Optimized for general writing assistance
+- Stream-based responses for natural conversation
 
-FAST uses advanced asynchronous architecture to process all STAR components simultaneously:
+#### Chat Different Models
+- Model selection from available Ollama models
+- Session persistence per selected model
+- Optimized for experimentation with different AI capabilities
 
-- **Parallel Generation**: All four STAR components generate concurrently
-- **65% Faster**: Compared to traditional sequential processing
-- **Resource Optimization**: Efficient use of computational resources
+#### Writing Assistant
+- Specialized prompts for content improvement
+- Grammar and style suggestions
+- Document structure recommendations
 
-![Processing Diagram](../assets/FAST_workflow.png)
+#### Grammar Checker
+- Advanced grammar correction
+- Style and tone analysis
+- Readability scoring
 
-### 3. Professional Formatting
+### Productivity Tools
 
-All outputs adhere to organizational writing standards:
+#### FAST
+- Structured STAR format generation
+- Professional accomplishment statements
+- Excel export with formatted output
+- Missing pronoun detection and correction
 
-- **Third-Person Perspective**: No personal pronouns (I, we, my, our)
-- **Active Voice**: Clear, direct language focused on actions and impacts
-- **Cohesive Paragraphs**: Natural transitions between sentences
-- **Professional Tone**: Appropriate for performance reviews and recognition
+#### AIMS
+- PDF document processing and analysis
+- Automatic document summarization
+- Contextual question answering about documents
+- Source attribution for generated responses
+- Chunk-based vector storage for precise retrieval
 
-### 4. Excel Export Functionality
+### Data & Analysis Tools
+- Coming soon
 
-One-click export to Excel with optimized formatting:
+### Policy & Procedure Tools
+- Coming soon
 
-- **Automatic Text Wrapping**: Ensures readability of long narratives
-- **Column Width Optimization**: Proper spacing for easy reading
-- **Organizational Branding**: Consistent with FMSG documentation standards
-- **Warning Banner**: Includes reminder to verify all generated content
+### Healthcare Tools
+- Coming soon
 
-### 5. Performance Optimization
-
-Built with performance in mind:
-
-- **Resource Caching**: Frequently used resources are cached
-- **Minimal Model Initialization**: Optimized loading process
-- **70% Faster Load Times**: Compared to previous documentation tools
-- **Responsive Design**: Works across device types and screen sizes
-
-## Impact Features
-
-### 1. Time Savings
-
-- **75% Reduction**: Average writing time reduced from 2 hours to 30 minutes
-- **3,000+ Hours Saved**: Estimated annual organizational time savings
-- **Faster Review Cycles**: Streamlined documentation process
-
-### 2. Quality Improvements
-
-- **85% Quality Improvement**: Through consistent STAR methodology adherence
-- **Standardized Format**: Consistent quality across all departments
-- **Strategic Alignment**: Automatic alignment with FMSG goals and missions
-
-### 3. Organizational Efficiency
-
-- **40% Efficiency Gain**: Through standardized documentation
-- **Streamlined Performance Reviews**: Consistent format simplifies evaluation
-- **Enhanced Recognition Programs**: Standardized accomplishment records
-- **Promotion Support**: Well-documented achievements for promotion packages
+### Programming Tools
+- Coming soon
 
 ## Technical Features
 
-### 1. Streamlit Interface
+### Document Processing Engine
+- Recursive character splitting for optimal chunking
+- Vector embedding for semantic search
+- PDF extraction with metadata preservation
+- Context-aware compression retriever
 
-- **Clean UI**: Intuitive interface requires minimal training
-- **Responsive Design**: Works on desktop and mobile devices
-- **Accessibility Compliant**: Meets organizational accessibility requirements
+### Chat Memory Management
+- Conversation buffer memory
+- Session-based history
+- Context-aware retrieval chains
+- Conversational summarization
 
-### 2. Ollama Integration
+### Responsive Design
+- Adaptive UI components
+- Mobile-friendly controls
+- Optimized chat interface
+- Accessible design elements
 
-- **Powerful LLM**: Leverages Llama3.1 model capabilities
-- **Token Optimization**: Efficient use of model context windows
-- **Local Processing**: Data remains within organizational infrastructure
-
-### 3. Pandas Data Handling
-
-- **Efficient Data Transformation**: Seamless conversion to exportable formats
-- **OpenPyXL Integration**: Advanced Excel formatting capabilities
-- **Data Validation**: Ensures exports meet all formatting requirements
+### Error Handling
+- Automatic session state recovery
+- Error count tracking and mitigation
+- Graceful degradation for component failures
+- Transparent error messaging
