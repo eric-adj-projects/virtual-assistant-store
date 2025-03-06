@@ -2,7 +2,7 @@ IMPORTANT NOTICE: This repository contains only mockups, documentation, and demo
 
 # Virtual Assistant Store
 
-![Project Banner](mockups/home-screen.png)
+![Project Banner](assets/virtual-assistant-store.png)
 
 ## Overview
 
@@ -27,11 +27,6 @@ The FMSG Virtual Assistant Store is a centralized AI application marketplace tha
 - **Reduced Support Needs**: 60% fewer IT support tickets related to AI tools
 - **Innovation Platform**: New AI tools deployed 3x faster than previous methods
 
-## 🖼️ Application Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main-interface.png)
-
 ## 🔍 Technical Architecture
 
 The application is built using a modular architecture with:
@@ -42,14 +37,12 @@ The application is built using a modular architecture with:
 - Asyncio for parallel processing of tasks
 - Error recovery mechanisms for high reliability
 
-For more details, see our [process flow diagram](docs/diagrams/process-flow.png).
+For more details, see our [process flow diagram](assets/process-flow.png).
 
 ## 📚 Documentation
 
 - [Feature Details](docs/FEATURES.md)
 - [Frequently Asked Questions](docs/FAQ.md)
-
----
 
 ## 📄 License
 © [2025] Eric A. All Rights Reserved.
