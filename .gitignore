@@ -1,53 +1,29 @@
-# Python-related
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
-venv/
-ENV/
-.env
-
-# IDE-related
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS-related
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Application-specific
-*.log
-*.xlsx
-*.docx
-!assets/templates/*.docx
+# Design files
+*.psd
+*.ai
+*.fig
+*.sketch
+
+# Development environment
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
 temp/
-data/
-config.ini
-secrets.json
+tmp/
+*.tmp
 
-# Streamlit-specific
-.streamlit/
-
-# Large files
-*.model
-*.bin
+# Personal notes
+notes.md
+TODO.md
