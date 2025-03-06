@@ -1,0 +1,53 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+.env
+
+# IDE-related
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Application-specific
+*.log
+*.xlsx
+*.docx
+!assets/templates/*.docx
+temp/
+data/
+config.ini
+secrets.json
+
+# Streamlit-specific
+.streamlit/
+
+# Large files
+*.model
+*.bin
