@@ -41,8 +41,8 @@ For more details, see our [process flow diagram](assets/process-flow.png).
 
 ## 📚 Documentation
 
-- [Feature Details](docs/FEATURES.md)
-- [Frequently Asked Questions](docs/FAQ.md)
+- [Feature Details](Docs/features.md)
+- [Frequently Asked Questions](Docs/faq.md)
 
 ## 📄 License
 © [2025] Eric A. All Rights Reserved.
